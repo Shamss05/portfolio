@@ -88,7 +88,7 @@
   display: flex;
   align-items: center;
   background: linear-gradient(135deg, #bdbdbd, #757575);
-  background-image: url('/images/hero-background.svg');
+  background-image: url('../public/images/hero-background.svg');
   background-size: cover;
   background-position: center;
   background-blend-mode: normal;
