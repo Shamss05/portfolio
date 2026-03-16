@@ -31,12 +31,12 @@ function initContactForm() {
 }
 
 const projects = [
-  { id: 1, title: 'ForCoaching intro', description: 'Portfolio video project', technologies: ['Video'], video: 'ForCoaching intro.mp4', liveLink: '/Videos/ForCoaching.mp4', group: 'youtube' },
-  { id: 2, title: 'Ghalia & 7.7', description: 'Portfolio video project', technologies: ['Reel'], video: 'Ghalia & 7.7.mp4', liveLink: '/Videos/Ghalia.mp4', group: 'reel' },
-  { id: 3, title: 'Red Sharm promo', description: 'Portfolio video project', technologies: ['Promo'], video: 'Red Sharm promo.mp4', liveLink: '/Videos/Red.mp4', group: 'promo' },
-  { id: 4, title: 'Reel sample', description: 'Portfolio video project', technologies: ['Reel'], video: 'Reel sample.mp4', liveLink: '/Videos/Reel.mp4', group: 'reel' },
-  { id: 5, title: 'TUTHUB VID', description: 'Portfolio video project', technologies: ['Reel'], video: 'TUTHUB VID.mp4', liveLink: '/Videos/TUTHUB.mp4', group: 'reel' },
-  { id: 6, title: 'YouTube Sample', description: 'Portfolio video project', technologies: ['Video'], video: 'YouTube Sample.mp4', liveLink: '/Videos/YouTube.mp4', group: 'youtube' },
+  { id: 1, title: 'ForCoaching intro', description: 'Portfolio video project', technologies: ['Video'], video: 'ForCoaching intro.mp4', liveLink: 'public/Videos/ForCoaching.mp4', group: 'youtube' },
+  { id: 2, title: 'Ghalia & 7.7', description: 'Portfolio video project', technologies: ['Reel'], video: 'Ghalia & 7.7.mp4', liveLink: 'public/Videos/Ghalia.mp4', group: 'reel' },
+  { id: 3, title: 'Red Sharm promo', description: 'Portfolio video project', technologies: ['Promo'], video: 'Red Sharm promo.mp4', liveLink: 'public/Videos/Red.mp4', group: 'promo' },
+  { id: 4, title: 'Reel sample', description: 'Portfolio video project', technologies: ['Reel'], video: 'Reel sample.mp4', liveLink: 'public/Videos/Reel.mp4', group: 'reel' },
+  { id: 5, title: 'TUTHUB VID', description: 'Portfolio video project', technologies: ['Reel'], video: 'TUTHUB VID.mp4', liveLink: 'public/Videos/TUTHUB.mp4', group: 'reel' },
+  { id: 6, title: 'YouTube Sample', description: 'Portfolio video project', technologies: ['Video'], video: 'YouTube Sample.mp4', liveLink: 'public/Videos/YouTube.mp4', group: 'youtube' },
 ];
 
 function renderProjects() {
